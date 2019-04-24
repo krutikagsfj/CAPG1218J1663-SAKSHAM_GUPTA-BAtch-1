@@ -1,0 +1,14 @@
+<div align="center">
+<h1>
+  {{title}}!<br><br>
+</h1>
+</div>
+<ul *ngFor="let data of productdata">
+  <li>
+    ProductId:{{data.ProductId}}&nbsp;
+    Product Category:{{data.Category}}&nbsp;
+    Main Category:{{data.MainCategory}}&nbsp;
+    Tariff Code:{{data.TaxTarifCode}}&nbsp;
+    Supplier Name:{{data.SupplierName}}
+  </li>
+</ul>
